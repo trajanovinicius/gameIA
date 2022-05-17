@@ -17,13 +17,13 @@ car_scale = (92*factor, 198*factor)
 
 screen = pygame.display.set_mode(size)
 
-car = pygame.image.load("carro2.png")
+car = pygame.image.load("img/carro2.png")
 car = pygame.transform.scale(car, car_scale)
 car_rect = car.get_rect()
 car_rect = car_rect.move(size[0]/2, 70)
 
 
-tree = pygame.image.load('tree.png')
+tree = pygame.image.load('img/tree.png')
 rect_trees = []
 for i in range(16):
 
